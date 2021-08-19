@@ -1,0 +1,98 @@
+.GF5 img
+{
+    width:20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border:6px solid lightseagreen;
+    border-top:20px;
+    border-bottom: 20px;
+    margin-top:60px;
+}
+.GF5
+{
+    background: linear-gradient(to left top, #4e4eff, #4155f9, #365af2, #2e5feb, #2963e3, #275cd6, #2556ca, #234fbd, #1d3da9, #172b95, #101981, #08036d);;
+    padding:50px 20px;
+    margin-bottom:40px;
+}
+
+.col-lg-4 img
+{
+    width:45%;
+    border-radius: 50%;
+}
+.col-lg-6 img
+{
+    width:40%;
+    border-radius: 50%;
+}
+
+.menu-principal ul
+{
+    position:fixed;
+    background: rgb(149,149,149);
+    background: -moz-linear-gradient(top,  rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); 
+    background: -webkit-linear-gradient(top,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%);
+    background: linear-gradient(to bottom,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); 
+    text-align:center;
+    width:100%;
+    margin-bottom:30px;
+    height:70px;
+}
+
+.menu-principal li
+{
+    display:inline-flex;
+    list-style: none;
+    font-size: 26px;
+    color:white;
+    font-family: monospace,sans-serif,arial;
+    margin-right: 24px;
+    position:relative;
+    bottom:50px;
+}
+
+.menu-principal ul img
+{
+    display: inline-flex;
+    margin-right:100%;
+    width:9%;
+    border-radius: 50%;
+    border: solid crimson;
+    border-top:2px;
+    border-bottom: 2px;
+    margin-right:100%;
+    position:relative;
+    top:2px;
+}
+
+ul li a
+{
+    color:darkgray;
+    text-decoration: none;
+}
+
+ul li a:hover
+{
+    color:crimson;
+}
+
+.col-lg-4, .col-lg-6
+{
+    padding:50px;
+    text-align: center;
+}
+
+h1
+{
+    color:black;
+}
+
+p
+{
+    color:floralwhite;
+    text-align:justify;
+    margin-right:24px;
+}
