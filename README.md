@@ -1,3 +1,3 @@
 # Revendo conceitos de HTML,CSS e JS
 
-## Site: https://silva-gabriel.github.io/HTML-CSS-JS/
+<a href="https://silva-gabriel.github.io/HTML-CSS-JS/" target="_blank" rel="external"></a>
