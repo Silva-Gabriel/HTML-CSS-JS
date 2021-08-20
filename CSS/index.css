@@ -80,6 +80,7 @@ ul li a
 {
     color:darkgray;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 ul li a:hover
