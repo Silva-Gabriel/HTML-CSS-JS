@@ -74,7 +74,6 @@
     font-family: monospace,sans-serif,arial;
     margin-right: 24px;
     position:relative;
-    bottom:50px;
 }
 
 ul li a
@@ -107,6 +106,8 @@ p
     text-align:justify;
     margin-right:24px;
 }
+
+
 
 @media screen and (min-width: 100px) and (max-width: 399px)
 {
@@ -151,6 +152,7 @@ p
 
     .menu-principal li
     {
+        display: inline-flex;
         font-size: 14px;
         color:white;
         font-family: monospace,sans-serif,arial;
