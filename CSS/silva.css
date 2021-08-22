@@ -1,6 +1,6 @@
 .GF5 img
 {
-    width:20%;
+    width:28%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -10,7 +10,7 @@
     border-top:4px;
     border-bottom: 4px;
     position:relative;
-    top: 170px;
+    top: 200px;
 }
 
 .GF5
@@ -26,28 +26,28 @@
 
 .menu-principal ul
 {
-    align-items:center;
-    position:flex;
     background: rgb(149,149,149);
     background: -moz-linear-gradient(top,  rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); 
     background: -webkit-linear-gradient(top,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%);
     background: linear-gradient(to bottom,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); 
     text-align:center;
-    margin:0;
-    padding:0;
     width:100%;
-    height:70px;
+    height:60px;
+    display:flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    padding:0;
+    margin:0;
 }
 
 .menu-principal li
 {
-    display:inline-flex;
     list-style: none;
-    font-size: 26px;
     color:white;
     font-family: monospace,sans-serif,arial;
-    margin-right: 24px;
+    margin-right: 50px;
     position:relative;
 }
 
@@ -63,11 +63,39 @@ ul li a:hover
     color:royalblue;
 }
 
+.card1,.card2
+{
+    margin-top:60px;
+}
+
+.menu-principal ul img
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:14%;
+    border-radius: 50%;
+    border: solid royalblue;
+    border-top:2px;
+    border-bottom: 2px;
+    margin-right:100%;
+    margin-bottom:2px;
+}
+
 h1
 {
-    color:black;
-    padding-top:80px;
+    text-shadow:2px 1px rgb(80, 48, 226);
+    color:azure;
+    padding-top:120px;
     text-align: center;
+}
+
+h2
+{
+    text-align: center;
+    text-shadow: 2px 1px 1px rgb(155, 155, 155);
+    padding-top:120px;
+    padding-bottom:30px;
 }
 
 p
@@ -77,225 +105,505 @@ p
     margin-right:24px;
 }
 
-.card,.card2
+footer
 {
-    margin-top:60px;
-}
-
-.menu-principal ul img
-{
-    display: flex;
-    margin-right:100%;
-    width:20%;
-    border-radius: 50%;
-    border: solid royalblue;
-    border-top:2px;
-    border-bottom: 2px;
-    margin-right:100%;
-    position:relative;
-    top:16px;
-    left:6px;
-}
-
-h2
-{
+    font-size:0;
     text-align: center;
-    text-shadow: 2px 1px 1px rgb(172, 221, 233);
-    padding-top:60px;
-    padding-bottom:20px;
-}
-
-footer img
-{
-    float:right;
-    position:relative;
-    right:350px;
 }
 
 
-@media (max-width: 600px)
+@media screen and (min-width:230px) and (max-width:300px)
 {
+    .GF5 img
+    {
+        width:40%;
+        max-width:200px;
+    }
+
+    .menu-principal li
+    {
+        font-size: 10px;
+        margin-right: 8px;
+    }
+
+    .menu-principal ul img
+    {
+        width:40%;
+    }
+
+    .menu-principal ul
+    {
+        height: 30px;
+    }
+
+    .GF5 img
+    {
+        width:30%;
+        position:relative;
+        top:56px;
+    }
+
+    .GF5
+    {
+        height:100px;
+    }
+
+    .myname h1
+    {
+        padding:0;
+    }
+
+    p
+    {
+        color:floralwhite;
+        text-align:center;
+        margin-right:24px;
+    }
+
+}
+
+
+@media screen and (min-width:301px) and (max-width:350px)
+{
+    .GF5 img
+    {
+        width:40%;
+        max-width:200px
+    }
+
+    .menu-principal li
+    {
+        font-size: 10px;
+        margin-right: 8px;
+    }
+
+    .menu-principal ul img
+    {
+        width:40%;
+    }
+
+    .menu-principal ul
+    {
+        height: 30px;
+    }
+
+    .GF5 img
+    {
+        width:30%;
+        position:relative;
+        top:56px;
+    }
+
+    .GF5
+    {
+        height:100px;
+    }
+
+    .myname h1
+    {
+        padding-top:20px;
+    }
+}
+
+@media screen and (min-width:351px) and (max-width:450px)
+{
+    .GF5 img
+    {
+        width:40%;
+        max-width:200px
+    }
+
+    .menu-principal li
+    {
+        font-size: 10px;
+        margin-right: 8px;
+    }
+
+    .menu-principal ul img
+    {
+        width:23%;
+    }
+
+    .menu-principal ul
+    {
+        height: 30px;
+    }
+
+    .GF5 img
+    {
+        width:30%;
+        position:relative;
+        top:56px;
+    }
+
+    .GF5
+    {
+        height:100px;
+    }
+
+    .myname h1
+    {
+        padding-top:55px;
+    }
+}
+
+
+@media screen and (min-width:451px) and (max-width:500px)
+{
+    .GF5 img
+    {
+        width:40%;
+        max-width:200px
+    }
+
+    .menu-principal li
+    {
+        font-size: 10px;
+        margin-right: 8px;
+    }
+
+    .menu-principal ul img
+    {
+        width:16%;
+    }
+
+    .menu-principal ul
+    {
+        height: 30px;
+    }
+
+    .GF5 img
+    {
+        width:30%;
+        position:relative;
+        top:56px;
+    }
+
+    .GF5
+    {
+        height:110px;
+    }
+
+    .myname h1
+    {
+        padding-top:60px;
+    }
+}
+
+
+
+@media screen and (min-width:501px) and (max-width:600px)
+{
+
+    .GF5 img
+    {
+        width:40%;
+        max-width:200px
+    }
+
+    .menu-principal li
+    {
+        font-size: 10px;
+        margin-right: 8px;
+    }
+
+    .menu-principal ul img
+    {
+        width:12%;
+    }
+
+    .menu-principal ul
+    {
+        height: 30px;
+    }
+
+    .GF5 img
+    {
+        width:30%;
+        position:relative;
+        top:56px;
+    }
+
+    .GF5
+    {
+        height:110px;
+    }
+
+    .myname h1
+    {
+        padding-top:90px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:750px)
+{
+    .GF5 img
+    {
+        width:40%;
+        max-width:200px
+    }
+
+    .menu-principal li
+    {
+        
+        margin-right: 18px;
+    }
+
+    .menu-principal ul img
+    {
+        width:15%;
+    }
+
     .menu-principal ul
     {
         height: 40px;
     }
 
-    .menu-principal li a
+    .GF5 img
     {
-        position: relative;
-        bottom:16px;
-        left:36px;
+        width:30%;
+        position:relative;
+        top:56px;
+    }
+
+    .GF5
+    {
+        height:110px;
+    }
+
+    .myname h1
+    {
+        padding-top:110px;
+    }
+}
+
+@media screen and (min-width:751px) and (max-width:850px)
+{
+    .GF5 img
+    {
+        width:40%;
+        max-width:200px
+    }
+
+    .menu-principal li
+    {
+        
+        margin-right: 18px;
     }
 
     .menu-principal ul img
     {
-        margin-right:100%;
         width:10%;
-        border-radius: 50%;
-        margin-right:100%;
-        position:relative;
-        top:10px;
+    }
+
+    .menu-principal ul
+    {
+        height: 30px;
     }
 
     .GF5 img
     {
         width:30%;
         position:relative;
-        top:106px;
+        top:56px;
+    }
+
+    .GF5
+    {
+        height:180px;
+    }
+
+    .card1
+    {
+        padding-bottom:52px;
+    }
+}
+
+@media screen and (min-width:851px) and (max-width:991px)
+{
+    .GF5 img
+    {
+        width:40%;
+        max-width:200px
     }
 
     .menu-principal li
     {
-        font-size:12px;
-        position:relative;
-        top:8px;
-
-    }
-
-    .card3 p
-    {
-        margin-bottom:23px;
-    }
-
-    .card2 p 
-    {
-        padding-bottom:63px;
-    }
-
-    h1
-    {
-        padding-top:20px;
-    }
-
-    footer img
-    {
-        right:0;
-        float:left;
-    }
-}
-
-@media screen and (min-width:601px) and (max-width:799px)
-{
-    .menu-principal ul
-    {
-        height: 50px;
-    }
-
-    .menu-principal li a
-    {
-        position: relative;
-        bottom:16px;
-        left:36px;
+        font-size:20px;
+        margin-right: 36px;
     }
 
     .menu-principal ul img
     {
-        margin-right:100%;
         width:10%;
-        border-radius: 50%;
-        margin-right:100%;
-        position:relative;
-        top:10px;
+    }
+
+    .menu-principal ul
+    {
+        height: 40px;
     }
 
     .GF5 img
     {
         width:30%;
         position:relative;
-        top:106px;
+        top:150px;
+    }
+
+    .GF5
+    {
+        height:260px;
+    }
+
+    .card1
+    {
+        padding-bottom:52px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px)
+{
+    .GF5 img
+    {
+        width:40%;
+        max-width:200px
     }
 
     .menu-principal li
     {
-        font-size:16px;
-        position:relative;
-        bottom:8px;
-    }
-
-    h1
-    {
-        padding-top:20px;
-    }
-}
-
-@media screen and (min-width:750px) and (max-width:851px)
-{
-    .menu-principal li a
-    {
-        font-size: 18px;
-        margin-right: 6px;
-        position: relative;
-        bottom:22px;
+        font-size:20px;
+        margin-right: 36px;
     }
 
     .menu-principal ul img
     {
-        margin-right:100%;
-        width:9%;
-        border-radius: 50%;
-        margin-right:100%;
-        position:relative;
-        top:6px;
-    }
-
-    .GF5 img
-    {
-        width:22%;
+        width:10%;
     }
 
     .menu-principal ul
     {
-        height: 54px;
-    }
-
-    .menu-principal li
-    {
-        position:relative;
-        bottom:0;
-        left:40px;
-        padding-right: 28px;
-    }
-
-    .card3 p
-    {
-        margin-bottom:23px;
-    }
-
-    .card2 p 
-    {
-        padding-bottom:40px;
-    }
-
-    footer div
-    {
-        position:relative;
-        left:276px;
-    }
-}
-
-@media screen and (min-width:852px) and (max-width:999px)
-{
-    .menu-principal li a
-    {
-        font-size: 18px;
-        margin-right: 6px;
-        position: relative;
-        bottom:22px;
-    }
-
-    .menu-principal ul img
-    {
-        margin-right:100%;
-        width:9%;
-        border-radius: 50%;
-        margin-right:100%;
-        position:relative;
-        top:6px;
+        height: 40px;
     }
 
     .GF5 img
     {
-        width:22%;
+        width:30%;
+        position:relative;
+        top:150px;
+    }
+
+    .GF5
+    {
+        height:260px;
+    }
+
+    .card1
+    {
+        padding-bottom:100px;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1367px)
+{
+    .GF5 img
+    {
+        width:40%;
+        max-width:200px
+    }
+
+    .menu-principal li
+    {
+        font-size:24px;
+        margin-right: 40px;
+    }
+
+    .menu-principal ul img
+    {
+        width:10%;
+    }
+
+    .menu-principal ul
+    {
+        height: 40px;
+    }
+
+    .GF5 img
+    {
+        width:30%;
+        position:relative;
+        top:150px;
+    }
+
+    .GF5
+    {
+        height:260px;
+    }
+
+    .card1
+    {
+        padding-bottom:268px;
+    }
+}
+
+@media screen and (min-width:1368px) and (max-width:1601px)
+{
+    .GF5 img
+    {
+        width:40%;
+        max-width:200px
+    }
+
+    .menu-principal li
+    {
+        font-size:26px;
+        margin-right: 40px;
+    }
+
+    .menu-principal ul img
+    {
+        width:10%;
+    }
+
+    .menu-principal ul
+    {
+        height: 40px;
+    }
+
+    .GF5 img
+    {
+        width:30%;
+        position:relative;
+        top:150px;
+    }
+
+    .GF5
+    {
+        height:260px;
+    }
+
+    .card1
+    {
+        padding-bottom:268px;
+    }
+}
+
+@media screen and (min-width:1601px) and (max-width:1920px)
+{
+    .GF5 img
+    {
+        width:40%;
+        max-width:200px
+    }
+
+    .menu-principal li
+    {
+        font-size:30px;
+        margin-right: 60px;
+    }
+
+    .menu-principal ul img
+    {
+        width:13%;
     }
 
     .menu-principal ul
@@ -303,262 +611,20 @@ footer img
         height: 60px;
     }
 
-    .menu-principal li
-    {
-        position:relative;
-        bottom:0;
-        left:40px;
-        padding-right: 28px;
-    }
-
-    footer div
-    {
-        position:relative;
-        left:270px;
-    }
-}
-
-@media screen and (min-width:1000px) and (max-width:1200px)
-{
-    .menu-principal ul
-    {
-        height: 84px;
-    }
-
-    .menu-principal li a
-    {
-        margin-right: 20px;
-        position: relative;
-        bottom:30px;
-    }
-
-    .menu-principal ul img
-{
-
-    display: flex;
-    width:10%;
-    border-radius: 50%;
-    border: solid crimson;
-    border-top:2px;
-    border-bottom: 2px;
-    position:relative;
-    left:20px;
-    top:4px;
-}
-
     .GF5 img
     {
         width:30%;
-    }
-
-    .menu-principal li
-    {
-        font-size: 26px;
         position:relative;
-        bottom:16px;
-        left:40px;
-        margin-right: 2px;
-    }
-}
-
-@media screen and (min-width:1367px) and (max-width:1399px)
-{
-
-
-    .menu-principal li a
-    {
-        margin-right: 20px;
-        position: relative;
-        bottom:30px;
+        top:210px;
     }
 
-    .menu-principal ul img
+    .GF5
     {
-        margin-right:100%;
-        width:8%;
-        border-radius: 50%;
-        margin-right:100%;
-        position:relative;
-        top:8px;
+        height:320px;
     }
 
-    .GF5 img
+    .card1
     {
-        width:20%;
-    }
-
-    .menu-principal li
-    {
-        font-size: 26px;
-        position:relative;
-        bottom:16px;
-        left:40px;
-        padding-right: 46px;
-    }
-
-    .card3 p
-    {
-        margin-bottom:23px;
-    }
-
-    .card2 p 
-    {
-        padding-bottom:63px;
-    }
-
-    footer div
-    {
-        position:relative;
-        right:100px;
-    }
-}
-
-@media screen and (min-width:1200px) and (max-width:1400px)
-{
-    .menu-principal ul
-    {
-        height: 74px;
-    }
-
-    .menu-principal li a
-    {
-        margin-right: 20px;
-        position: relative;
-        bottom:30px;
-    }
-
-    .menu-principal ul img
-    {
-        margin-right:100%;
-        width:8%;
-        border-radius: 50%;
-        margin-right:100%;
-        position:relative;
-        top:8px;
-    }
-
-    .GF5 img
-    {
-        width:20%;
-    }
-
-    .menu-principal li
-    {
-        font-size: 26px;
-        position:relative;
-        bottom:16px;
-        left:40px;
-        padding-right: 46px;
-    }
-
-    .card3 p
-    {
-        margin-bottom:23px;
-    }
-
-    .card2 p 
-    {
-        padding-bottom:63px;
-    }
-}
-
-@media screen and (min-width:1600px) and (max-width:1800px)
-{
-    .menu-principal li a
-    {
-        font-size: 32px;
-        margin-right: 20px;
-        position: relative;
-        bottom:44px;
-    }
-
-    .menu-principal ul img
-    {
-        margin-right:100%;
-        width:8%;
-        border-radius: 50%;
-        margin-right:100%;
-        position:relative;
-        top:2px;
-    }
-
-    .GF5 img
-    {
-        width:22%;
-    }
-
-    .menu-principal ul
-    {
-        height: 92px;
-    }
-
-    .menu-principal li
-    {
-        font-size: 28px;
-        position:relative;
-        bottom:16px;
-        left:40px;
-        padding-right: 64px;
-    }
-
-    footer div
-    {
-        position:relative;
-        right:152px;
-    }
-}
-
-@media screen and (min-width:1801px) and (max-width:1920px)
-{
-    .menu-principal li a
-    {
-        font-size: 36px;
-        margin-right: 20px;
-        position: relative;
-        bottom:44px;
-    }
-
-    .menu-principal ul img
-    {
-        margin-right:100%;
-        width:7%;
-        border-radius: 50%;
-        margin-right:100%;
-        position:relative;
-        top:2px;
-    }
-
-    .GF5 img
-    {
-        width:22%;
-    }
-
-    .menu-principal ul
-    {
-        height: 84px;
-    }
-
-    .menu-principal li
-    {
-        position:relative;
-        bottom:16px;
-        left:40px;
-        padding-right: 46px;
-    }
-
-    .card3 p
-    {
-        margin-bottom:23px;
-    }
-
-    .card2 p 
-    {
-        padding-bottom:40px;
-    }
-
-    footer div
-    {
-        position:relative;
-        right:268px;
+        padding-bottom:268px;
     }
 }
