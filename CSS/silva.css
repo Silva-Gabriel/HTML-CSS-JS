@@ -68,6 +68,13 @@ ul li a:hover
     margin-top:60px;
 }
 
+.card3
+{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
 .menu-principal ul img
 {
     display: flex;
@@ -92,9 +99,10 @@ h1
 
 h2
 {
+    color:rgb(71, 124, 238);
     text-align: center;
-    text-shadow: 2px 1px 1px rgb(155, 155, 155);
-    padding-top:120px;
+    text-shadow: 2px 1px 1px aqua;
+    padding-top:50px;
     padding-bottom:30px;
 }
 
@@ -541,7 +549,7 @@ footer
 
     .card1
     {
-        padding-bottom:268px;
+        padding-bottom:2px;
     }
 }
 
@@ -583,7 +591,7 @@ footer
 
     .card1
     {
-        padding-bottom:268px;
+        padding-bottom:212px;
     }
 }
 
@@ -625,6 +633,6 @@ footer
 
     .card1
     {
-        padding-bottom:268px;
+        padding-bottom:236px;
     }
 }
