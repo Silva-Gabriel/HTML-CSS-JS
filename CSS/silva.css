@@ -119,6 +119,13 @@ footer
     text-align: center;
 }
 
+@media (max-width:767px)
+{
+    .card3
+    {
+        width:100%;
+    }
+}
 
 @media screen and (min-width:230px) and (max-width:300px)
 {
@@ -421,9 +428,9 @@ footer
         height:180px;
     }
 
-    .card1
+    .card2
     {
-        padding-bottom:52px;
+        padding-bottom:262px;
     }
 }
 
@@ -463,9 +470,9 @@ footer
         height:260px;
     }
 
-    .card1
+    .card2
     {
-        padding-bottom:52px;
+        padding-bottom:262px;
     }
 }
 
@@ -505,9 +512,9 @@ footer
         height:260px;
     }
 
-    .card1
+    .card2
     {
-        padding-bottom:100px;
+        padding-bottom:142px;
     }
 }
 
@@ -591,11 +598,11 @@ footer
 
     .card1
     {
-        padding-bottom:212px;
+        padding-bottom:24px;
     }
 }
 
-@media screen and (min-width:1601px) and (max-width:1920px)
+@media screen and (min-width:1602px) and (max-width:1920px)
 {
     .GF5 img
     {
@@ -633,6 +640,6 @@ footer
 
     .card1
     {
-        padding-bottom:236px;
+       padding-bottom:24px;
     }
 }
