@@ -119,6 +119,11 @@ footer
     text-align: center;
 }
 
+footer div a img:hover
+{
+    filter:opacity(72%);
+}
+
 @media (max-width:767px)
 {
     .card3
