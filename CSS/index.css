@@ -28,7 +28,7 @@ section .col-lg-6 img
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50%;
+    border-radius: 100%;
     width:300px;
 }
 
@@ -68,7 +68,7 @@ ul li a
 
 ul li a:hover
 {
-    color:royalblue;
+    color:rgb(94, 209, 255);
 }
 
 .menu-principal ul img
