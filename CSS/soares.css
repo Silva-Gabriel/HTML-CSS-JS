@@ -6,7 +6,7 @@
     margin-right: auto;
     margin-bottom:50px;
     border-radius: 50%;
-    border:solid rgb(106, 67, 214);
+    border:solid #2558e4;
     border-top:4px;
     border-bottom: 4px;
     position:relative;
@@ -15,8 +15,8 @@
 
 .GF5
 {
-    background: url("../IMG/programming.jpg");
-    background-size: cover;
+    background: url("../IMG/ProgrammingSoares.jpg");
+    background-size:auto;
     margin-bottom:50px;
     position:relative;
     padding-top:2px;
@@ -60,7 +60,7 @@ ul li a
 
 ul li a:hover
 {
-    color:rgb(131, 100, 216);
+    color:#2558e4;
 }
 
 .card1,.card2
@@ -82,7 +82,7 @@ ul li a:hover
     align-items: center;
     width:14%;
     border-radius: 50%;
-    border: solid rgb(106, 67, 214);
+    border: solid #2558e4;
     border-top:2px;
     border-bottom: 2px;
     margin-right:100%;
@@ -91,8 +91,8 @@ ul li a:hover
 
 h1
 {
-    text-shadow:2px 1px rgb(80, 48, 226);
-    color:azure;
+    text-shadow:2px 1px #acacac;
+    color:black;
     padding-top:120px;
     text-align: center;
 }
