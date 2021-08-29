@@ -6,7 +6,7 @@
     margin-right: auto;
     margin-bottom:50px;
     border-radius: 50%;
-    border:solid rgb(106, 67, 214);
+    border:solid #231d97;
     border-top:4px;
     border-bottom: 4px;
     position:relative;
@@ -60,7 +60,7 @@ ul li a
 
 ul li a:hover
 {
-    color:rgb(131, 100, 216);
+    color:#43C6AC;
 }
 
 .card1,.card2
@@ -82,7 +82,7 @@ ul li a:hover
     align-items: center;
     width:14%;
     border-radius: 50%;
-    border: solid rgb(106, 67, 214);
+    border: solid #43C6AC;
     border-top:2px;
     border-bottom: 2px;
     margin-right:100%;
@@ -91,7 +91,7 @@ ul li a:hover
 
 h1
 {
-    text-shadow:2px 1px rgb(80, 48, 226);
+    text-shadow:2px 1px rgb(66, 48, 226);
     color:azure;
     padding-top:120px;
     text-align: center;

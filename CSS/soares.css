@@ -6,7 +6,7 @@
     margin-right: auto;
     margin-bottom:50px;
     border-radius: 50%;
-    border:solid #2558e4;
+    border:solid #272727;
     border-top:4px;
     border-bottom: 4px;
     position:relative;
@@ -60,12 +60,17 @@ ul li a
 
 ul li a:hover
 {
-    color:#2558e4;
+    color:#d5d826;
 }
 
 .card1,.card2
 {
     margin-top:60px;
+}
+
+.card1 h2,.card2 h2,.card3 h2
+{
+    color:#272727;
 }
 
 .card3
@@ -80,35 +85,28 @@ ul li a:hover
     display: flex;
     flex-direction: row;
     align-items: center;
-    width:14%;
-    border-radius: 50%;
-    border: solid #2558e4;
-    border-top:2px;
-    border-bottom: 2px;
+    width:15%;
     margin-right:100%;
     margin-bottom:2px;
 }
 
 h1
 {
-    text-shadow:2px 1px #acacac;
-    color:black;
+    color:azure;
     padding-top:120px;
     text-align: center;
 }
 
 h2
 {
-    color:rgb(71, 124, 238);
     text-align: center;
-    text-shadow: 2px 1px 1px aqua;
     padding-top:50px;
     padding-bottom:30px;
 }
 
 p
 {
-    color:floralwhite;
+    color:#272727;
     text-align:justify;
     margin-right:24px;
 }
