@@ -1,16 +1,12 @@
 .GF5 img
 {
-    width:30%;
+    width:100%;
+    max-width:400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom:50px;
-    border-radius: 50%;
-    border:solid rgb(0, 230, 11);
-    border-top:4px;
-    border-bottom: 4px;
-    position:relative;
-    top: 100px;
+    padding-top:30px;
+    padding-bottom:60px;
 }
 
 section .col-lg-4 img
@@ -76,21 +72,15 @@ ul li a:hover
     display: flex;
     flex-direction: row;
     align-items: center;
-    width:14%;
-    border-radius: 50%;
-    border: solid red;
-    border-top:2px;
-    border-bottom: 2px;
     margin-right:100%;
-    margin-bottom:2px;
 }
 
 h1
 {
     text-shadow:2px 2px rgb(53, 85, 231);
     color:azure;
-    padding-top:120px;
-    padding-bottom:150px;
+    padding-top:80px;
+    padding-bottom:80px;
     text-align: center;
 }
 
@@ -113,6 +103,13 @@ p
 {
     text-align: center;
     padding-bottom:80px;
+    text-align:justify;
+    margin-right:30px;
+}
+
+footer p
+{
+    text-align: center;
 }
 
 @media (max-width:767px)
@@ -125,12 +122,6 @@ p
 
 @media screen and (min-width:230px) and (max-width:300px)
 {
-    .GF5 img
-    {
-        width:40%;
-        max-width:200px;
-    }
-
     .menu-principal li
     {
         font-size: 10px;
@@ -139,43 +130,32 @@ p
 
     .menu-principal ul img
     {
-        width:40%;
+        width:50%;
     }
 
     .menu-principal ul
     {
-        height: 30px;
+        height: 27px;
     }
 
     .GF5 img
     {
-        width:30%;
-        position:relative;
-        top:56px;
+        width:80%;
     }
     .myname h1
     {
         padding:0;
     }
 
-    p
+    section .col-lg-4 img,section .col-lg-6 img
     {
-        color:floralwhite;
-        text-align:center;
-        margin-right:24px;
+        width:120px;
     }
-
 }
 
 
 @media screen and (min-width:301px) and (max-width:350px)
 {
-    .GF5 img
-    {
-        width:40%;
-        max-width:200px
-    }
-
     .menu-principal li
     {
         font-size: 10px;
@@ -189,30 +169,26 @@ p
 
     .menu-principal ul
     {
-        height: 30px;
+        height: 27px;
     }
 
     .GF5 img
     {
-        width:30%;
-        position:relative;
-        top:56px;
+        width:80%;
     }
-
     .myname h1
     {
-        padding-top:20px;
+        padding:0;
+    }
+
+    section .col-lg-4 img,section .col-lg-6 img
+    {
+        width:120px;
     }
 }
 
 @media screen and (min-width:351px) and (max-width:450px)
 {
-    .GF5 img
-    {
-        width:40%;
-        max-width:200px
-    }
-
     .menu-principal li
     {
         font-size: 10px;
@@ -221,7 +197,7 @@ p
 
     .menu-principal ul img
     {
-        width:23%;
+        width:30%;
     }
 
     .menu-principal ul
@@ -231,52 +207,42 @@ p
 
     .GF5 img
     {
-        width:30%;
-        position:relative;
-        top:56px;
+        width:70%;
     }
 
-    .myname h1
+    section .col-lg-4 img,section .col-lg-6 img
     {
-        padding-top:55px;
+        width:140px;
     }
 }
 
 
 @media screen and (min-width:451px) and (max-width:500px)
 {
-    .GF5 img
-    {
-        width:40%;
-        max-width:200px
-    }
-
     .menu-principal li
     {
-        font-size: 10px;
-        margin-right: 8px;
+        font-size: 14px;
+        margin-right: 15px;
     }
 
     .menu-principal ul img
     {
-        width:16%;
+        width:22%;
     }
 
     .menu-principal ul
     {
-        height: 30px;
+        height: 32px;
     }
 
     .GF5 img
     {
-        width:30%;
-        position:relative;
-        top:56px;
+        width:70%;
     }
 
-    .myname h1
+    section .col-lg-4 img,section .col-lg-6 img
     {
-        padding-top:60px;
+        width:140px;
     }
 }
 
@@ -285,132 +251,96 @@ p
 @media screen and (min-width:501px) and (max-width:600px)
 {
 
-    .GF5 img
-    {
-        width:40%;
-        max-width:200px
-    }
-
     .menu-principal li
     {
-        font-size: 10px;
-        margin-right: 8px;
+        font-size: 16px;
+        margin-right: 15px;
     }
 
     .menu-principal ul img
     {
-        width:12%;
+        width:24%;
     }
 
     .menu-principal ul
     {
-        height: 30px;
+        height: 32px;
     }
 
     .GF5 img
     {
-        width:30%;
-        position:relative;
-        top:56px;
+        width:60%;
     }
 
-    .myname h1
+    section .col-lg-4 img,section .col-lg-6 img
     {
-        padding-top:90px;
+        width:150px;
     }
 }
 
 @media screen and (min-width:601px) and (max-width:750px)
 {
-    .GF5 img
+    .menu-principal ul li
     {
-        width:40%;
-        max-width:200px
-    }
-
-    .menu-principal li
-    {
-        
+        font-size: 18px;
         margin-right: 18px;
     }
 
     .menu-principal ul img
     {
-        width:15%;
+        width:18%;
     }
 
     .menu-principal ul
     {
-        height: 40px;
+        height: 34px;
     }
 
     .GF5 img
     {
-        width:30%;
-        position:relative;
-        top:56px;
+        width:70%;
     }
 
-    .myname h1
+    section .col-lg-4 img,section .col-lg-6 img
     {
-        padding-top:110px;
+        width:150px;
     }
 }
 
 @media screen and (min-width:751px) and (max-width:850px)
 {
-    .GF5 img
-    {
-        width:40%;
-        max-width:200px
-    }
-
-    .menu-principal li
-    {
-        
-        margin-right: 18px;
-    }
-
     .menu-principal ul img
     {
-        width:10%;
+        width:19%;
     }
 
     .menu-principal ul
     {
-        height: 30px;
+        height: 36px;
+    }
+
+    .menu-principal ul li
+    {
+        font-size: 20px;
+        margin-right: 20px;
     }
 
     .GF5 img
     {
-        width:30%;
-        position:relative;
-        top:56px;
+        width:70%;
     }
 
-    .card2
+    section .col-lg-4 img,section .col-lg-6 img
     {
-        padding-bottom:262px;
+        width:150px;
     }
 }
 
 @media screen and (min-width:851px) and (max-width:991px)
 {
-    .GF5 img
-    {
-        width:40%;
-        max-width:200px
-    }
-
-    .menu-principal li
-    {
-        font-size:20px;
-        margin-right: 36px;
-    }
-
     .menu-principal ul img
     {
-        width:10%;
+        width:17%;
     }
 
     .menu-principal ul
@@ -418,143 +348,97 @@ p
         height: 40px;
     }
 
-    .GF5 img
+    .menu-principal ul li
     {
-        width:30%;
-        position:relative;
-        top:150px;
+        font-size: 22px;
+        margin-right: 27px;
     }
 
-    .card2
+    .GF5 img
     {
-        padding-bottom:262px;
+        width:80%;
+    }
+
+    section .col-lg-4 img,section .col-lg-6 img
+    {
+        width:180px;
     }
 }
 
 @media screen and (min-width:992px) and (max-width:1199px)
 {
-    .GF5 img
-    {
-        width:40%;
-        max-width:200px
-    }
-
-    .menu-principal li
-    {
-        font-size:20px;
-        margin-right: 36px;
-    }
-
     .menu-principal ul img
     {
-        width:10%;
+        width:18%;
     }
 
     .menu-principal ul
     {
-        height: 40px;
+        height: 44px;
+    }
+
+    .menu-principal ul li
+    {
+        font-size: 24px;
+        margin-right: 32px;
     }
 
     .GF5 img
     {
-        width:30%;
-        position:relative;
-        top:150px;
+        width:100%;
+        max-width:560px;
     }
 
-    .card2
+    section .col-lg-4 img,section .col-lg-6 img
     {
-        padding-bottom:142px;
+        width:240px;
+    }
+    p
+    {
+        text-align: center;
     }
 }
 
 @media screen and (min-width:1200px) and (max-width:1367px)
 {
-    .GF5 img
-    {
-        width:100%;
-        max-width:250px
-    }
-
-    .menu-principal li
-    {
-        font-size:24px;
-        margin-right: 40px;
-    }
-
     .menu-principal ul img
     {
-        width:10%;
+        width:20%;
     }
 
     .menu-principal ul
     {
-        height: 42px;
+        height: 50px;
+    }
+
+    .menu-principal ul li
+    {
+        font-size: 26px;
+        margin-right: 40px;
     }
 
     .GF5 img
     {
         width:100%;
-        max-width:320px;
-        position:relative;
-        top:100px;
+        max-width:550px;
+    }
+
+    section .col-lg-4 img,section .col-lg-6 img
+    {
+        width:250px;
+    }
+
+    p
+    {
+        text-align: center;
     }
 }
 
 @media screen and (min-width:1368px) and (max-width:1601px)
 {
-    .GF5 img
-    {
-        width:40%;
-        max-width:200px
-    }
-
-    .menu-principal li
-    {
-        font-size:26px;
-        margin-right: 40px;
-    }
-
     .menu-principal ul img
     {
-        width:10%;
-    }
-
-    .menu-principal ul
-    {
-        height: 40px;
-    }
-
-    .GF5 img
-    {
-        width:30%;
-        position:relative;
-        top:150px;
-    }
-
-    .card1
-    {
-        padding-bottom:24px;
-    }
-}
-
-@media screen and (min-width:1602px) and (max-width:1920px)
-{
-    .GF5 img
-    {
-        width:40%;
-        max-width:200px
-    }
-
-    .menu-principal li
-    {
-        font-size:30px;
-        margin-right: 60px;
-    }
-
-    .menu-principal ul img
-    {
-        width:13%;
+        width:20%;
     }
 
     .menu-principal ul
@@ -562,16 +446,73 @@ p
         height: 60px;
     }
 
-    .GF5 img
+    .menu-principal ul li
     {
-        width:30%;
-        position:relative;
-        top:210px;
+        font-size: 28px;
+        margin-right: 45px;
     }
 
-    .card1
+    .GF5 img
     {
-       padding-bottom:24px;
+        width:100%;
+        max-width:630px;
+    }
+
+    section .col-lg-4 img,section .col-lg-6 img
+    {
+        width:270px;
+    }
+
+    p
+    {
+        font-size:24px;
+        text-align: center;
+    }
+
+    .col-lg-4 h1, .col-lg-6 h1
+    {
+        font-size:52px;
+    }
+}
+
+@media screen and (min-width:1602px) and (max-width:1920px)
+{
+    .menu-principal ul img
+    {
+        width:22%;
+    }
+
+    .menu-principal ul
+    {
+        height: 70px;
+    }
+
+    .menu-principal ul li
+    {
+        font-size: 42px;
+        margin-right: 80px;
+    }
+
+    .GF5 img
+    {
+        width:100%;
+        max-width:680px;
+    }
+
+    section .col-lg-4 img,section .col-lg-6 img
+    {
+        width:300px;
+    }
+
+    p
+    {
+        font-size:30px;
+        text-align: center;
+    }
+
+    .col-lg-4 h1, .col-lg-6 h1
+    {
+        font-size:60px;
     }
 }
 
