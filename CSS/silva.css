@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .GF5 img
 {
     width:28%;
@@ -116,6 +121,7 @@ footer
 footer div a img:hover
 {
     filter:opacity(72%);
+    transition: 0.5s;
 }
 
 @media (max-width:767px)
@@ -450,7 +456,7 @@ footer div a img:hover
 {
     .GF5 img
     {
-        width:40%;
+        width:36%;
         max-width:200px
     }
 
@@ -467,7 +473,7 @@ footer div a img:hover
 
     .menu-principal ul
     {
-        height: 50px;
+        height: 40px;
     }
 
     .GF5 img
