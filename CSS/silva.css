@@ -156,6 +156,12 @@ footer div a img:hover
     transition: 0.5s;
 }
 
+.myname h1{
+    color:rgba(0,0,0,.80);
+    text-shadow: 2px 2px 4px rgba(0,0,0,.95);
+    font-size:40px ;
+}
+
 @media screen and (min-width:230px) and (max-width:300px)
 {
 
@@ -472,7 +478,6 @@ footer div a img:hover
     .myname h1
     {
         padding-top:68px;
-        font-size:28px;
     }
 }
 
@@ -516,11 +521,6 @@ footer div a img:hover
     {
         padding-bottom:2px;
     }
-    .myname h1
-    {
-        padding-top:68px;
-        font-size:30px;
-    }
 }
 
 @media screen and (min-width:1368px) and (max-width:1601px)
@@ -562,7 +562,6 @@ footer div a img:hover
     .myname h1
     {
         padding-top:68px;
-        font-size:30px;
     }
 
     .card2
@@ -607,7 +606,6 @@ footer div a img:hover
     .myname h1
     {
         padding-top:120px;
-        font-size:60px;
     }
 
     .GF5
