@@ -16,9 +16,10 @@
     {
         margin:0;
         padding:0;
-        background: linear-gradient(to right top, #f0f0f0,#26caf3,#f0f0f0, #26caf3, #f0f0f0, #24d1f6,#f0f0f0,#26caf3,#f0f0f0);
+        background: linear-gradient(to right top, #f0f0f0,#26caf3,#f0f0f0, #26caf3, #f0f0f0, #24d1f6,#f0f0f0,#26caf3,#f0f0f0,#26caf3,#f0f0f0);
         background-size: 200% 200%;
-        animation:BackColor 10s ease infinite;
+        transition-delay:0.2s,100ms;
+        animation:BackColor 10s linear infinite normal;
     }
 </style>
 <body>
@@ -39,50 +40,6 @@
     <div class="GF5">
         <img src="IMG/Sem título.png" alt="Logotipo 3G+2F">
     </div>
-
-
-    <div class="container">
-        <div class="card">
-          <div class="content">
-            <h2>0</h2>
-            <P>“Tente uma, duas, três vezes e se possível tente a quarta, a quinta e quantas vezes for necessário. Só não desista nas primeiras tentativas, a persistência é amiga da conquista. Se você quer chegar aonde a maioria não chega, faça o que a maioria não faz.”</P>
-            <footer>Steve Jobs</footer>
-          </div>
-        </div>
-    
-        <div class="card">
-            <div class="content">
-              <h2>1</h2>
-              <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum quas aspernatur similique est placeat animi, sunt reiciendis laborum error incidunt quisquam quibusdam esse ullam eos ipsum, ab in magnam autem.</P>
-              <footer>Steve Jobs</footer>
-            </div>
-          </div>
-    
-          <div class="card">
-            <div class="content">
-              <h2>10</h2>
-              <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum quas aspernatur similique est placeat animi, sunt reiciendis laborum error incidunt quisquam quibusdam esse ullam eos ipsum, ab in magnam autem.</P>
-              <footer>Steve Jobs</footer>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="content">
-              <h2>11</h2>
-              <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum quas aspernatur similique est placeat animi, sunt reiciendis laborum error incidunt quisquam quibusdam esse ullam eos ipsum, ab in magnam autem.</P>
-              <footer>Steve Jobs</footer>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="content">
-              <h2>100</h2>
-              <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum quas aspernatur similique est placeat animi, sunt reiciendis laborum error incidunt quisquam quibusdam esse ullam eos ipsum, ab in magnam autem.</P>
-              <footer>Steve Jobs</footer>
-            </div>
-          </div>
-      </div>
-
 
     <!--First Container(Personal informations)-->
     
@@ -141,17 +98,60 @@
                 </div>
             </div>
         </div>
+        <div class="container">
+            <div class="card">
+              <div class="content">
+                <h2>0</h2>
+                <P><i>“Tente quantas vezes for necessário. Só não desista nas primeiras tentativas, a persistência é amiga da conquista. Se você quer chegar aonde a maioria não chega, faça o que a maioria não faz.”</i></P>
+                <footer>Bill Gates</footer>
+              </div>
+            </div>
+        
+            <div class="card">
+                <div class="content">
+                  <h2>1</h2>
+                  <P><i>"Você pode encarar um erro como uma besteira a ser esquecida ou como um resultado que aponta uma nova direção"</i></P>
+                  <footer>Steve Jobs</footer>
+                </div>
+              </div>
+        
+              <div class="card">
+                <div class="content">
+                  <h2>10</h2>
+                  <P><i>"Quando algo é importante o suficiente, você realiza, mesmo que as chances não estejam a seu favor."</i></P>
+                  <footer>Elon Musk</footer>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div class="content">
+                  <h2>11</h2>
+                  <P><i>"O maior risco é não arriscar.Em um mundo que muda muito rápido,a única estratégia em que a falha é garantida é não arriscar."</i></P>
+                  <footer>Mark Zuckerberg</footer>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div class="content">
+                  <h2>100</h2>
+                  <P><i>“Medir o progresso da programação por linhas de código é como medir o progresso da construção de aeronaves em termos de peso.”</i></P>
+                  <footer >Bill Gates</footer>
+                </div>
+              </div>
+          </div>
     </section>
-    <footer>
-        <p style="padding:0;">Protótipo do site 3G+2F</p>
-    </footer>
+    <div style="text-align: center;">
+        <footer>
+            <p class="typing-footer">PROTÓTIPO</p>
+        </footer>
+    </div>
     <script type="text/javascript" src="JS/vanilla-tilt.js">
     </script>
     <script>
-            VanillaTilt.init(document.querySelectorAll(".card"),{max: 25,speed:400,glare:true,"max-glare":1});
+            VanillaTilt.init(document.querySelectorAll(".card"),{max: 25,speed:300,glare:true,"max-glare":1.2});
     </script>
     <script>
-            VanillaTilt.init(document.querySelectorAll(".GF5"),{max: 25,speed:200});
+            VanillaTilt.init(document.querySelectorAll(".GF5"),{max: 25,speed:300});
     </script>
 </body>
 </html>

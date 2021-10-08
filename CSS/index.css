@@ -36,9 +36,9 @@ body
 .container .card
 {
     position:relative;
-    width:250px;
-    height: 370px;
-    margin:40px;
+    width:220px;
+    height: 300px;
+    margin:50px;
     box-shadow:20px 20px 50px rgba(56,56,56,1);
     border-radius: 15px;
     background:rgb(43, 41, 41);
@@ -49,6 +49,7 @@ body
     color:white;
     border-top: 1px solid rgba(149,149,149,1);
     border-left:1px solid rgba(149,149,149,1);
+    bottom:130px;
 
 }
 
@@ -85,11 +86,15 @@ body
 
 .container .card .content p
 {
-    font-size: 1em;
+    font-size: 16px;
     font-weight: 300;
     position:relative;
-    left:15px;
-    top:25px;
+    text-align: center;
+}
+
+.container .card footer
+{
+    cursor: default;
 }
 
 section .col-lg-4 img
@@ -114,6 +119,7 @@ section .col-lg-6 img
     width:300px;
     filter: grayscale(100%);
     margin-bottom: 50px;
+    margin-top:70px;
 }
 
 section .col-lg-6 img:hover,.col-lg-4 img:hover
@@ -123,7 +129,17 @@ section .col-lg-6 img:hover,.col-lg-4 img:hover
     transform: scale(1.2);
     filter: grayscale(0);
     transition: 0.5s;
-    bottom:40px;
+}
+
+.col-lg-6 img:hover+h1,.col-lg-4 img:hover+h1
+{
+    text-shadow: 3px 4px 3px rgb(204, 202, 202);
+    color:rgba(49, 49, 49, 0.75);
+    transition: 0.7s;
+}
+
+.col-lg-4 p,.col-lg-6 p{
+    padding-top:40px;
 }
 
 .menu-principal ul
@@ -178,14 +194,13 @@ h1
     align-items: center;
     justify-content: center;
     text-shadow: 3px 4px 3px rgba(0,0, 0, 0.75);
-    color:rgb(119, 118, 118);
+    color:rgba(184, 179, 179, 0.877);
     text-align: center;
     overflow: hidden;
     margin:0 auto;
     padding:0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-
 
 h2
 {
@@ -196,19 +211,18 @@ h2
     padding-bottom:30px;
 }
 
-p
-{
-    position:relative;
-    text-align: center;
-    padding-bottom:80px;
-    text-align:justify;
-    margin-right:30px;
-    top:50px;
-}
-
 footer p
 {
+    align-items: center;
+    justify-content: center;
+    text-shadow: 3px 4px 3px rgba(0,0, 0, 0.75);
+    color:rgba(184, 179, 179, 0.877);
     text-align: center;
+    overflow: hidden;
+    margin:0 auto;
+    padding-bottom:5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 26px;
 }
 
 @media (max-width:767px)
@@ -712,7 +726,20 @@ footer p
     
 }
 
+@keyframes typingFooter{
+    from{
+        width:0;
+    }
+    to{
+        width:16em;
+    }
+}
+
+.typing-footer{
+    animation: typingFooter 10s 3s linear infinite normal;
+}
+
 .typing-animation
 {
-    animation: typing 4s 3s ease infinite normal;
+    animation: typing 8s 3s ease infinite normal;
 }
