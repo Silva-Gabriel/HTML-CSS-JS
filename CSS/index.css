@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+p{
+    padding:40px;
+    color:azure;
+}
 .GF5 img
 {
     width:100%;
