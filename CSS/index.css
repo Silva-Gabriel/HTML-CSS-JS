@@ -26,10 +26,11 @@ body
     display:flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     max-width:1200px;
     flex-wrap: wrap;
     z-index: 1;
-    padding-bottom:200px;
+    padding-bottom:100px;
 }
 
 .container .card
@@ -121,6 +122,16 @@ section .col-lg-6 img
     margin-bottom: 50px;
     margin-top:70px;
     box-shadow: 10px 10px 20px rgba(0,0, 0, 0.75);
+}
+section .col-lg-4 a,section .col-lg-6 a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: bold;
+}
+
+section .col-lg-4,section .col-lg-6 a:hover{
+    color: rgba(0,0, 0, .75);
+    transition: 0.2s;
 }
 
 section .col-lg-6 img:hover,.col-lg-4 img:hover
@@ -614,11 +625,6 @@ footer p
     section .col-lg-4 img,section .col-lg-6 img
     {
         width:250px;
-    }
-
-    p
-    {
-        text-align: center;
     }
 }
 
