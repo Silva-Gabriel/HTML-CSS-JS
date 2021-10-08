@@ -32,17 +32,39 @@
 
 .certificados ul a{
     text-decoration:none ;
-    color:azure;
-}
-
-.certificados ul a:hover{
     color:rgba(0,0,0,.90);
-    transition: 0.4s;
+    font-size: 18px;
 }
 
-.certificados h1{
+.certificados ul a:hover
+{
+    color:azure;
+    transition: 0.3s;
+}
+
+.certificados h1
+{
     text-shadow: 2px 2px 3px whitesmoke;
     color:rgba(1,1,1,1);
+}
+
+.certificados ul #vejaMais
+{
+    font-size: 16px;
+    position:relative;
+    top:35px;
+    background-color: rgba(0,0,0,.75);
+    color:whitesmoke;
+    padding:12px 40px  12px 40px;
+    border-radius: 1em;
+    box-shadow: 5px 5px 10px black;
+}
+
+.certificados ul #vejaMais:hover
+{
+    background-color:rgba(0,0,0,.95);
+    transition: 0.2s;
+    box-shadow: 10px 10px 15px black;
 }
 
 .menu-principal ul
