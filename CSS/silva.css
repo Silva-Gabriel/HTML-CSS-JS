@@ -244,6 +244,15 @@ footer div a img:hover
     {
         height:100px;
     }
+
+    .box-netflix img{
+        width:150px;
+    }
+
+    .box-login img{
+        width:150px;
+        height: 100px;
+    }
 }
 
 
@@ -276,6 +285,15 @@ footer div a img:hover
     {
         height:100px;
     }
+
+    .box-netflix img{
+        width:200px;
+    }
+
+    .box-login img{
+        width:200px;
+        height: 150px;
+    }
 }
 
 @media screen and (min-width:351px) and (max-width:450px)
@@ -306,6 +324,15 @@ footer div a img:hover
     .GF5
     {
         height:100px;
+    }
+
+    .box-netflix img{
+        width:230px;
+    }
+
+    .box-login img{
+        width:230px;
+        height: 210px;
     }
 }
 
@@ -338,6 +365,15 @@ footer div a img:hover
     .GF5
     {
         height:150px;
+    }
+
+    .box-netflix img{
+        width:350px;
+    }
+
+    .box-login img{
+        width:350px;
+        height: 280px;
     }
 }
 
@@ -373,6 +409,15 @@ footer div a img:hover
     {
         height:150px;
     }
+
+    .box-netflix img{
+        width:350px;
+    }
+
+    .box-login img{
+        width:350px;
+        height: 280px;
+    }
 }
 
 @media screen and (min-width:601px) and (max-width:750px)
@@ -403,6 +448,15 @@ footer div a img:hover
     .GF5
     {
         height:160px;
+    }
+
+    .box-netflix img{
+        width:350px;
+    }
+
+    .box-login img{
+        width:350px;
+        height: 280px;
     }
 }
 
