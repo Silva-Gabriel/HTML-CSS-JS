@@ -254,6 +254,15 @@ footer div a img:hover
     .menu-principal ul img{
         width:0;
     }
+
+    .GF5{
+        height: 9rem;
+    }
+
+    .GF5 img{
+        top:5rem;
+        width: 7rem;
+    }
 }
 
 @media screen and (min-width:351px) and (max-width:400px)
@@ -280,6 +289,15 @@ footer div a img:hover
     .menu-principal ul img{
         width:0;
     }
+
+    .GF5{
+        height: 8rem;
+    }
+
+    .GF5 img{
+        top:4rem;
+        width: 7rem;
+    }
 }
 
 
@@ -304,6 +322,15 @@ footer div a img:hover
 
     .menu-principal ul img{
         width:3.5rem;
+    }
+
+    .GF5{
+        height: 8rem;
+    }
+
+    .GF5 img{
+        top:4rem;
+        width: 7rem;
     }
 }
 
@@ -332,6 +359,15 @@ footer div a img:hover
     .menu-principal ul img{
         width:4.8rem;
     }
+
+    .GF5{
+        height: 8rem;
+    }
+
+    .GF5 img{
+        top:4rem;
+        width: 7rem;
+    }
 }
 
 @media screen and (min-width:601px) and (max-width:750px)
@@ -358,6 +394,15 @@ footer div a img:hover
     .menu-principal ul img{
         width:4.5rem;
     }
+
+    .GF5{
+        height: 12rem;
+    }
+
+    .GF5 img{
+        top:7.2rem;
+        width: 8rem;
+    }
 }
 
 @media screen and (min-width:751px) and (max-width:850px)
@@ -378,6 +423,15 @@ footer div a img:hover
 
     .menu-principal ul img{
         width:4.5rem;
+    }
+
+    .GF5{
+        height: 12rem;
+    }
+
+    .GF5 img{
+        top:7.2rem;
+        width: 8rem;
     }
 }
 
@@ -406,6 +460,15 @@ footer div a img:hover
     .menu-principal ul img{
         width:4.5rem;
     }
+
+    .GF5{
+        height: 12rem;
+    }
+
+    .GF5 img{
+        top:7.2rem;
+        width: 8rem;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1199px)
@@ -421,16 +484,24 @@ footer div a img:hover
     }
 
     div .list{
-        margin-left:54%;
+        margin-left:52%;
     }
 
     .menu-principal li{
         font-size: 1.3rem;
-        padding-right: 0.5rem;
     }
 
     .menu-principal ul img{
-        width:5.5rem;
+        width:5.2rem;
+    }
+
+    .GF5{
+        height: 13rem;
+    }
+
+    .GF5 img{
+        top:7.3rem;
+        width: 9rem;
     }
 }
 
