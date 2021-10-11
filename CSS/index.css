@@ -265,12 +265,12 @@ footer p
     }
 
     .menu-principal li{
-        font-size: 0.8rem;
-        margin-left:0.3rem;
+        font-size: 0.75rem;
+        margin-left:0.2rem;
     }
 
     .menu-principal ul img{
-        width:4.5rem;
+        width:4.2rem;
     }
 }
 
