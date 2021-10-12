@@ -6,11 +6,9 @@
 
 body
 {
-margin:0;
-padding:0;
-background: #1A2980;
-background: -webkit-linear-gradient(to right, rgba(255,255,255,.85), #3d7df5);
-background: linear-gradient(to left, rgba(255,255,255,.85), #3d7df5);
+    background: #1A2980;
+    background: -webkit-linear-gradient(to right, rgba(255,255,255,.85), #3d7df5);
+    background: linear-gradient(to left, rgba(255,255,255,.85), #3d7df5);
 }
 
 .GF5 img
@@ -35,7 +33,7 @@ background: linear-gradient(to left, rgba(255,255,255,.85), #3d7df5);
 }
 
 .box-netflix img{
-    width:400px;
+    width:25rem;
     margin-bottom:50px;
     margin-top:10px;
     border-radius: 1em;
@@ -67,8 +65,8 @@ background: linear-gradient(to left, rgba(255,255,255,.85), #3d7df5);
 }
 
 .box-login img{
-    width:260px;
-    height: 300px;
+    width:15rem;
+    height: 18rem;
     margin-top:30px;
     margin-right:auto;
     margin-left:auto;
@@ -123,14 +121,9 @@ h3{
     box-shadow: 10px 10px 15px black;
 }
 
-.menu-principal{
-    margin-bottom:-18px;
-}
-
 .menu-principal ul img
 {
     display: flex;
-    flex-direction: row;
     align-items: center;
     margin-right:100%;
     width:5.5rem;
@@ -145,7 +138,8 @@ h3{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); 
     width: 100%;
     height:3rem;
-    display:inline-flex;
+    display:flex;
+    justify-content: space-between;
     align-items: center;
     padding:0;
     margin:0;
@@ -165,7 +159,6 @@ h3{
 
 div .list{
     display: flex;
-    margin-left:65%;
 }
 
 ul li a
@@ -222,6 +215,10 @@ footer div a img:hover
     transition: 0.5s;
 }
 
+footer div{
+    margin-bottom:-1.25rem;
+}
+
 .myname h1{
     color:rgba(0,0,0,.80);
     text-shadow: 2px 2px 4px rgba(0,0,0,.95);
@@ -237,22 +234,6 @@ footer div a img:hover
     .box-login img{
         width:200px;
         height: 150px;
-    }
-
-    div .list{
-        display: flex;
-        margin-left:0;
-    }
-
-
-    .menu-principal li{
-        position: relative;
-        left:0.8rem;
-        font-size: 0.7rem;
-    }
-
-    .menu-principal ul img{
-        width:0;
     }
 
     .GF5{
@@ -276,20 +257,6 @@ footer div a img:hover
         height: 210px;
     }
 
-    div .list{
-        margin-left:0;
-    }
-
-    .menu-principal li{
-        position: relative;
-        font-size: 0.7rem;
-        left:1.7rem;
-    }
-
-    .menu-principal ul img{
-        width:0;
-    }
-
     .GF5{
         height: 8rem;
     }
@@ -310,18 +277,6 @@ footer div a img:hover
     .box-login img{
         width:350px;
         height: 280px;
-    }
-
-    div .list{
-        margin-left:1%;
-    }
-
-    .menu-principal li{
-        font-size: 0.7rem;
-    }
-
-    .menu-principal ul img{
-        width:3.5rem;
     }
 
     .GF5{
@@ -347,19 +302,6 @@ footer div a img:hover
         height: 280px;
     }
 
-    div .list{
-        margin-left:28%;
-    }
-    
-
-    .menu-principal li{
-        font-size: 1rem;
-    }
-
-    .menu-principal ul img{
-        width:4.8rem;
-    }
-
     .GF5{
         height: 8rem;
     }
@@ -381,20 +323,6 @@ footer div a img:hover
         height: 280px;
     }
 
-    
-    div .list{
-        margin-left:36%;
-    }
-
-    .menu-principal li{
-        font-size:1.1rem;
-        padding-right: 0.4rem;
-    }
-
-    .menu-principal ul img{
-        width:4.5rem;
-    }
-
     .GF5{
         height: 12rem;
     }
@@ -410,19 +338,6 @@ footer div a img:hover
     .card2
     {
         padding-bottom:262px;
-    }
-
-    div .list{
-        margin-left:46%;
-    }
-
-    .menu-principal li{
-        font-size: 1.1rem;
-        padding-right: 0.5rem;
-    }
-
-    .menu-principal ul img{
-        width:4.5rem;
     }
 
     .GF5{
@@ -448,19 +363,6 @@ footer div a img:hover
         font-size:28px;
     }
 
-    div .list{
-        margin-left:50%;
-    }
-
-    .menu-principal li{
-        font-size: 1.2rem;
-        padding-right:0.5rem;
-    }
-
-    .menu-principal ul img{
-        width:4.5rem;
-    }
-
     .GF5{
         height: 12rem;
     }
@@ -481,18 +383,6 @@ footer div a img:hover
     .myname h1
     {
         padding-top:68px;
-    }
-
-    div .list{
-        margin-left:52%;
-    }
-
-    .menu-principal li{
-        font-size: 1.3rem;
-    }
-
-    .menu-principal ul img{
-        width:5.2rem;
     }
 
     .GF5{
@@ -532,18 +422,6 @@ footer div a img:hover
     {
         font-size:50px;
     }
-
-    div .list{
-        margin-left:25%;
-    }
-
-    .menu-principal li{
-        font-size: 1.2rem;
-    }
-
-    .menu-principal ul img{
-        width:5rem;
-    }
 }
 
 @media screen and (min-width:1602px) and (max-width:1920px)
@@ -551,32 +429,5 @@ footer div a img:hover
     .card2
     {
        padding-bottom:360px;
-    }
-
-    div .card-body
-    {
-        font-size:24px;
-    }
-    div .card-header h2
-    {
-        font-size:56px;
-    }
-
-    footer img
-    {
-        padding:0;
-        margin:0;
-    }
-
-    div .list{
-        margin-left:30%;
-    }
-
-    .menu-principal li{
-        font-size: 1.3rem;
-    }
-
-    .menu-principal ul img{
-        width:5rem;
     }
 }
