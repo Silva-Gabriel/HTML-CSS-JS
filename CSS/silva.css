@@ -147,12 +147,11 @@ h3{
 
 .menu-principal li
 {
-    position:relative;
     list-style: none;
     color:white;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.3rem;
-    margin-right:1rem;
+    font-size: 1.5rem;
+    margin-right:1.5rem;
     align-items: center;
 }
 
@@ -228,7 +227,11 @@ footer div{
 {
     .menu-principal li{
         font-size: 0.9rem;
-        padding-right:0;
+        padding-right: 0;
+    }
+
+    .menu-principal ul img{
+        width:4.5rem;
     }
 }
 

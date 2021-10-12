@@ -166,8 +166,9 @@ section .col-lg-6 img:hover,.col-lg-4 img:hover
     list-style: none;
     color:white;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.3rem;
-    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    margin-right:1.5rem;
+    align-items: center;
 }
 
 div .list{
@@ -235,7 +236,11 @@ footer p
 {
     .menu-principal li{
         font-size: 0.9rem;
-        margin-right:0.7rem;
+        padding-right: 0;
+    }
+
+    .menu-principal ul img{
+        width:4.5rem;
     }
 }
 
