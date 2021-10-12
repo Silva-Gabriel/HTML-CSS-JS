@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-body{
-    background:linear-gradient(rgba(31, 31, 31, 0.05),rgb(46, 46, 46)), url("IMG/cash-macanaya-4OLy06seaH4-unsplash.jpg");
-    background-attachment: fixed;
+body
+{
+    background-image: linear-gradient(to right bottom, #e3e3e3, #e6e6e6, #e9e9e9, #ededed, #f0f0f0, #f1f1f1, #f3f3f3, #f4f4f4, #f4f4f4, #f3f3f3, #f3f3f3, #f2f2f2);
     background-size: cover;
-    background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
-    }
+}
+
 
 .GF5 img
 {
@@ -111,15 +111,15 @@ body{
     margin-top:70px;
     box-shadow: 20px 10px 30px rgba(0,0, 0, 0.85);
 }
-section .col-lg-4 a,section .col-lg-6 a{
+.col-lg-4 a,.col-lg-6 a{
     text-decoration: none;
-    color:whitesmoke;
+    color: rgb(250, 37, 37);
     font-weight: bold;
 }
 
-section .col-lg-4,section .col-lg-6 a:hover{
-    color: rgba(0,0, 0, .75);
-    transition: 0.2s;
+.col-lg-4 a:hover,.col-lg-6 a:hover{
+    color:rgb(69, 226, 95);
+    transition: 0.4s;
 }
 
 section .col-lg-6 img:hover,.col-lg-4 img:hover
@@ -134,23 +134,20 @@ section .col-lg-6 img:hover,.col-lg-4 img:hover
 
 .col-lg-6 img:hover+h1,.col-lg-4 img:hover+h1
 {
-    text-shadow: 3px 4px 3px rgb(204, 202, 202);
-    color:rgba(49, 49, 49, 0.75);
-    transition: 0.5s;
+    text-shadow: 4px 6px 7px rgba(0,0, 0, 0.85);
+    color:rgba(0,0, 0, 0.95);
+    transition: 0.4s;
 }
 
 .col-lg-4 p,.col-lg-6 p{
     padding:2rem;
-    color:azure;
+    color:rgba(0,0, 0, 0.85);
     font-size: 18px;
 }
 
 .menu-principal ul
 {
-    background: rgb(149,149,149);
-    background: -moz-linear-gradient(top,  rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); 
-    background: -webkit-linear-gradient(top,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%);
-    background: linear-gradient(to bottom,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%);
+    background-image: linear-gradient(to right top, #2c2cfd, #005fff, #0080ff, #009bff, #00b3ff, #00b4ff, #00b4ff, #00b5ff, #009fff, #0085ff, #0063ff, #6a29ff);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); 
     width: 100%;
     height:3rem;
@@ -164,7 +161,6 @@ section .col-lg-6 img:hover,.col-lg-4 img:hover
 .menu-principal li
 {
     list-style: none;
-    color:white;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.5rem;
     margin-right:1.5rem;
@@ -177,14 +173,15 @@ div .list{
 
 ul li a
 {
-    color:darkgray;
+    color:whitesmoke;
     text-decoration: none;
-    transition: 0.5s;
+    text-shadow: 1px 1px 2px black;
 }
 
 ul li a:hover
 {
-    color:rgb(58, 43, 196);
+    color:rgb(158, 158, 158);
+    transition: 0.3s;
 }
 
 .menu-principal ul img
@@ -201,7 +198,7 @@ h1
     align-items: center;
     justify-content: center;
     text-shadow: 3px 4px 6px rgba(0,0, 0, 0.75);
-    color:rgba(184, 179, 179, 0.877);
+    color:rgba(0,0, 0, .65);
     text-align: center;
     overflow: hidden;
     margin:0 auto;
