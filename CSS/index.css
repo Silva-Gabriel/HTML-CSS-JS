@@ -231,6 +231,13 @@ footer p
     font-size: 26px;
 }
 
+@media (max-width:600px)
+{
+    .menu-principal li{
+        font-size: 0.8rem;
+    }
+}
+
 @media (max-width:767px)
 {
     section .col-lg-6 img:hover,.col-lg-4 img:hover

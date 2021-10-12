@@ -225,6 +225,13 @@ footer div{
     font-size:40px ;
 }
 
+@media (max-width:600px)
+{
+    .menu-principal li{
+        font-size: 0.8rem;
+    }
+}
+
 @media screen and (min-width:300px) and (max-width:350px)
 {
     .box-netflix img{
@@ -244,6 +251,7 @@ footer div{
         top:5rem;
         width: 7rem;
     }
+    
 }
 
 @media screen and (min-width:351px) and (max-width:400px)

@@ -138,6 +138,13 @@ footer div a img:hover
     filter:opacity(72%);
 }
 
+@media (max-width:600px)
+{
+    .menu-principal li{
+        font-size: 0.8rem;
+    }
+}
+
 @media (max-width:767px)
 {
     .card3
