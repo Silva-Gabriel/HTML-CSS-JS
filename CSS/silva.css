@@ -154,7 +154,6 @@ h3{
     font-size: 1.3rem;
     margin-right:1rem;
     align-items: center;
-    padding-right:0.5rem;
 }
 
 div .list{
@@ -216,7 +215,7 @@ footer div a img:hover
 }
 
 footer div{
-    margin-bottom:-1.25rem;
+    margin-bottom:-1rem;
 }
 
 .myname h1{
@@ -229,7 +228,7 @@ footer div{
 {
     .menu-principal li{
         font-size: 0.9rem;
-        margin-right:0.7rem;
+        padding-right:0;
     }
 }
 
