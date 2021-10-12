@@ -231,10 +231,11 @@ footer p
     font-size: 26px;
 }
 
-@media (max-width:600px)
+@media (max-width:650px)
 {
     .menu-principal li{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
+        margin-right:0.7rem;
     }
 }
 
