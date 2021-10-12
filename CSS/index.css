@@ -19,7 +19,7 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top:30px;
+    padding-top:1.8rem;
 }
 
 .container
@@ -32,17 +32,17 @@ body{
     max-width:1200px;
     flex-wrap: wrap;
     z-index: 1;
-    padding-bottom:100px;
+    padding-bottom:3rem;
 }
 
 .container .card
 {
     position:relative;
-    width:220px;
-    height: 300px;
-    margin:50px;
+    width:14rem;
+    height: 19rem;
+    margin:3.2rem;
     box-shadow:20px 20px 50px rgba(56,56,56,1);
-    border-radius: 15px;
+    border-radius: 15%;
     background:rgb(43, 41, 41);
     overflow:hidden;
     display:flex;
@@ -57,7 +57,7 @@ body{
 
 .container .card .content
 {
-    padding: 5px;
+    padding: 0.5rem;
     text-align: center;
     transform:translateY(100px);
     opacity: 0;
@@ -136,11 +136,11 @@ section .col-lg-6 img:hover,.col-lg-4 img:hover
 {
     text-shadow: 3px 4px 3px rgb(204, 202, 202);
     color:rgba(49, 49, 49, 0.75);
-    transition: 0.7s;
+    transition: 0.5s;
 }
 
 .col-lg-4 p,.col-lg-6 p{
-    padding:30px;
+    padding:2rem;
     color:azure;
     font-size: 18px;
 }
@@ -201,7 +201,7 @@ h1
 {
     align-items: center;
     justify-content: center;
-    text-shadow: 3px 4px 3px rgba(0,0, 0, 0.75);
+    text-shadow: 3px 4px 6px rgba(0,0, 0, 0.75);
     color:rgba(184, 179, 179, 0.877);
     text-align: center;
     overflow: hidden;
