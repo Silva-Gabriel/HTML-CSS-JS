@@ -163,7 +163,7 @@ section .col-lg-6 img:hover,.col-lg-4 img:hover
     list-style: none;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.5rem;
-    margin-right:1.5rem;
+    margin-right:1.2rem;
     align-items: center;
 }
 
@@ -190,7 +190,7 @@ ul li a:hover
     flex-direction: row;
     align-items: center;
     margin-right:100%;
-    width:5.5rem;
+    width:5rem;
 }
 
 h1
