@@ -153,6 +153,15 @@ footer div a img:hover
     {
         padding-top:20px;
     }
+
+    .GF5{
+        height: 9rem;
+    }
+
+    .GF5 img{
+        top:5rem;
+        width: 7rem;
+    }
 }
 
 @media screen and (min-width:351px) and (max-width:450px)
@@ -161,15 +170,34 @@ footer div a img:hover
     {
         padding-top:55px;
     }
+
+    .GF5{
+        height: 8rem;
+    }
+
+    .GF5 img{
+        top:4rem;
+        width: 7rem;
+    }
 }
 
 
-@media screen and (min-width:451px) and (max-width:500px)
+@media screen and (min-width:401px) and (max-width:500px)
 {
     .myname h1
     {
         padding-top:60px;
     }
+
+    .GF5{
+        height: 8rem;
+    }
+
+    .GF5 img{
+        top:4rem;
+        width: 7rem;
+    }
+
 }
 
 
@@ -180,6 +208,15 @@ footer div a img:hover
     {
         padding-top:80px;
     }
+
+    .GF5{
+        height: 8rem;
+    }
+
+    .GF5 img{
+        top:4rem;
+        width: 7rem;
+    }
 }
 
 @media screen and (min-width:601px) and (max-width:750px)
@@ -187,6 +224,15 @@ footer div a img:hover
     h1
     {
         padding-top:110px;
+    }
+
+    .GF5{
+        height: 12rem;
+    }
+
+    .GF5 img{
+        top:7.2rem;
+        width: 8rem;
     }
 }
 
@@ -196,6 +242,15 @@ footer div a img:hover
     {
         padding-bottom:384px;
     }
+
+    .GF5{
+        height: 12rem;
+    }
+
+    .GF5 img{
+        top:7.2rem;
+        width: 8rem;
+    }
 }
 
 @media screen and (min-width:851px) and (max-width:991px)
@@ -204,6 +259,15 @@ footer div a img:hover
     {
         padding-bottom:384px;
     }
+
+    .GF5{
+        height: 12rem;
+    }
+
+    .GF5 img{
+        top:7.2rem;
+        width: 8rem;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1199px)
@@ -211,6 +275,15 @@ footer div a img:hover
     .card2
     {
         padding-bottom:240px;
+    }
+
+    .GF5{
+        height: 13rem;
+    }
+
+    .GF5 img{
+        top:7.3rem;
+        width: 9rem;
     }
 }
 
