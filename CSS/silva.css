@@ -54,7 +54,7 @@ body
 .slyt:hover{
     filter: saturate(100%);
     box-shadow: 10px 10px 14px rgba(1,1,1,1);
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .projetos-p{
@@ -91,12 +91,12 @@ h3{
 .certificados ul a:hover
 {
     color:azure;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .certificados h1
 {
-    text-shadow: 2px 2px 3px whitesmoke;
+    text-shadow: 2px 2px 2px whitesmoke;
     color:rgba(1,1,1,1);
 }
 
@@ -107,7 +107,7 @@ h3{
     top:35px;
     background-color: rgba(0,0,0,.75);
     color:whitesmoke;
-    padding:12px 40px  12px 40px;
+    padding:12px 80px  12px 80px;
     border-radius: 1em;
     box-shadow: 5px 5px 10px black;
 }
@@ -138,6 +138,11 @@ h3{
     align-items: center;
     padding:0;
     margin:0;
+}
+
+.menu-principal img:hover
+{
+    filter: opacity(90%);
 }
 
 .menu-principal li

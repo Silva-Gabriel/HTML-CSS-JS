@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background:rgba(0,0,0,.80);
+}
+
+.navbar ul
+{
+    background: linear-gradient(to bottom,  rgb(99, 0, 228) 0%,rgb(44, 44, 44)  46%,rgb(44, 44, 44)  50%,rgb(44, 44, 44)  53%,rgb(44, 44, 44) 76%,rgb(44, 44, 44) 87%,rgb(99, 0, 228)  100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); 
+    width: 100%;
+    height:3rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
+    margin:0;
+}
+
+.menu-principal img
+{
+    display: flex;
+    align-items: center;
+    margin-right:100%;
+    width:5rem;
+}
+
+.menu-principal img:hover
+{
+    filter: opacity(90%);
+}
+
+.list
+{
+    display: flex;
+    list-style: none;
+}
+
+.list a
+{
+    text-decoration: none;
+    margin-right:1.2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    color:whitesmoke;
+    text-shadow: 2px 2px 2px rgb(99, 0, 228);
+}
+
+.list a:hover
+{
+    color: rgb(126, 47, 253);
+    text-shadow: 2px 2px 4px whitesmoke;
+}
+
+.perfil{
+    background: url("../IMG/bertiniBackground.jpg");
+    background-size: cover;
+    background-attachment:local;
+    box-shadow: 20px 20px 20px rgba(0,0,0,.75);
+    margin-bottom:70px;
+    height:18rem;
+}
+
+.perfil img{
+    position: relative;
+    border-radius: 50%;
+    width:12rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 11rem;
+    box-shadow: 15px 15px 25px black
+}
+
+section h1{
+    margin:2rem;
+    color:rgb(117, 33, 252);
+    text-align: center;
+}
+
+h2
+{
+    color:whitesmoke;
+}
+
+.myName{
+    text-shadow:2px 2px 2px rgb(101, 48, 226);
+    color:rgba(0,0,0,.95);
+    padding-top:42px;
+    text-align: center;
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    margin:2rem;
+}
+
+.sobre-mim li{
+    color:whitesmoke;   
+    margin: 1rem;
+}
+
+.tecnologias{
+    color:whitesmoke;
+    margin: 1rem;
+    text-align: center;
+}
+
+
+footer
+{
+    font-size:0;
+    text-align: center;
+}
+
+footer div a img:hover
+{
+    filter:opacity(72%);
+    transition: 0.5s;
+}
+
+footer div{
+    margin-bottom:-1rem;
+}
+
