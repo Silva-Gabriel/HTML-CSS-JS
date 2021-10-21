@@ -168,6 +168,12 @@ footer div a img:hover
     .menu-principal ul img{
         width:4.5rem;
     }
+
+    #footer h2{
+        position:relative;
+        top:1.2rem;
+        padding-top:0.5rem;
+    }
 }
 
 @media (max-width:767px)

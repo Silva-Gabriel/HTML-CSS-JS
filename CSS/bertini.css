@@ -162,6 +162,10 @@ footer div{
     .myName h1{
         font-size: 32px;
     }
+
+    .menu-principal ul img{
+        width:4.5rem;
+    }
 }
 
 @media (min-width:401px) and (max-width:650px)
