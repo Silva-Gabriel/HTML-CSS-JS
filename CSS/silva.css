@@ -219,7 +219,18 @@ footer div{
     margin-bottom:-1rem;
 }
 
-.myname h1{
+#footer h2{
+    color: whitesmoke;
+    text-shadow: 1px 1.5px 2.5px #abc5f7;
+}
+
+#footer{
+    background:rgba(0,0,0,.80);
+    width:100%;
+}
+
+.myName{
+    font-family:'Times New Roman', Times, serif;
     color:rgba(0,0,0,.80);
     text-shadow: 2px 2px 4px rgba(0,0,0,.95);
     font-size:40px ;

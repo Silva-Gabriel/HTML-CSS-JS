@@ -37,10 +37,7 @@ body
 
 .menu-principal ul
 {
-    background: rgb(149,149,149);
-    background: -moz-linear-gradient(top,  rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); 
-    background: -webkit-linear-gradient(top,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%);
-    background: linear-gradient(to bottom,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.95) 0%,rgb(235, 232, 93)  46%,rgb(235, 232, 93) 50%,rgb(235, 232, 93)  53%,rgb(235, 232, 93)  76%,rgb(235, 232, 93)  87%,rgba(0,0,0,0.95)  100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); 
     width: 100%;
     height:3rem;
@@ -70,8 +67,14 @@ body
     width:5rem;
 }
 
-.myName{
-    text-shadow: 2px 2px 2px black;
+.menu-principal ul img:hover{
+    filter: opacity(80%);
+}
+
+.myName h1{
+    color:black;
+    text-shadow: 1px 1px 1px rgb(0, 35, 150);
+    font-family:'Times New Roman', Times, serif;
 }
 
 div .list{
@@ -80,16 +83,16 @@ div .list{
 
 ul li a
 {
-    color:darkgray;
+    color:black;
     text-decoration: none;
-    transition: 0.5s;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.90);
+    text-shadow: 2px 2px 2px #fbff0e;
 }
 
 ul li a:hover
 {
-    color:#d5d826;
-    text-shadow: 2px 2px 2px black;
+    color:#fbff0e;
+    text-shadow: 3px 3px 3px black;
+    transition:0.3s;
 }
 
 .card1,.card2,.card3,.card4
@@ -135,6 +138,16 @@ footer
 {
     font-size:0;
     text-align: center;
+}
+
+#footer h2{
+    text-shadow: 1px 1.5px 2px whitesmoke;
+    color:black;
+}
+
+#footer{
+    background: whitesmoke;
+    box-shadow: inset 0.2rem 2rem 2rem 2rem black;
 }
 
 footer div a img:hover
