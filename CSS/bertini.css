@@ -145,7 +145,7 @@ footer div{
 @media (max-width:400px)
 {
     .menu-principal li a{
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding-right: 0;
     }
 

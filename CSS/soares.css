@@ -145,6 +145,8 @@ footer
     color:black;
     padding-top:1.5rem;
     top:0.2rem;
+    position:relative;
+    top:0.5rem;
 }
 
 #footer{
@@ -171,8 +173,12 @@ footer div a img:hover
 
     #footer h2{
         position:relative;
-        top:1.2rem;
-        padding-top:0.5rem;
+        top:1.5rem;
+        padding-top:1px;
+    }
+
+    #footer{
+        box-shadow: inset 0.2rem 1.2rem 1.2rem 1.5rem black;
     }
 }
 
