@@ -222,6 +222,8 @@ footer div{
 #footer h2{
     color: whitesmoke;
     text-shadow: 1px 1.5px 2.5px #abc5f7;
+    padding-top:1.5rem;
+    top:0.2rem;
 }
 
 #footer{

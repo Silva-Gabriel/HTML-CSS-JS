@@ -143,11 +143,14 @@ footer
 #footer h2{
     text-shadow: 1px 1.5px 2px whitesmoke;
     color:black;
+    padding-top:1.5rem;
+    top:0.2rem;
 }
 
 #footer{
     background: whitesmoke;
     box-shadow: inset 0.2rem 2rem 2rem 2rem black;
+    width:100%;
 }
 
 footer div a img:hover
