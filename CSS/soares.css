@@ -27,8 +27,8 @@ body
 
 .GF5
 {
-    background: url("../IMG/pexels-negative-space-97077.jpg");
-    background-size: cover;
+    background: url("../IMG/ProgrammingSoares.jpg");
+    background-repeat:round;
     background-attachment:local;
     box-shadow: 20px 40px 20px rgba(0,0,0,.75);
     margin-bottom:70px;
